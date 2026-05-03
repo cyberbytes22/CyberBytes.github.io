@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>{{ site.title }}</h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>{{ page.title }}</h2>
+</section>
+
+<main>
+    {{ content }}
+</main>
+
+<footer>
+    <p>© 2026 {{ site.title }}</p>
+</footer>
+
+</body>
+</html>
